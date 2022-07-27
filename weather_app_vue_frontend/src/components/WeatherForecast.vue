@@ -7,6 +7,7 @@
         <option :value="city.id" :key="city.id" v-for="city in cityList">{{city.name}}</option>
       </select>
 
+      <!-- Fallback UI to show when no city is selected -->
       <div v-show="!checkCitySelected" class="fallbackSection">
         <div class="imgWrapper">
           <img src="@/assets/images/not_selected.svg" alt="" />
@@ -14,6 +15,7 @@
         <p>No city selected</p>
       </div>
 
+      <!-- Weather Summary section to show when city is selected -->
       <div v-if="checkCitySelected" class="summary">
         <div class="weatherCard">
           <TiWeatherCloudy size="{20}" color="white" />

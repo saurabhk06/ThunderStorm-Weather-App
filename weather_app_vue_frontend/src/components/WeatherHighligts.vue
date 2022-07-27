@@ -46,6 +46,8 @@
         @toggle-showForecast="$emit('toggle-showForecast', true)"
       />
     </div>
+
+    <!-- Fallback UI when no city is selected -->
     <div v-if="!checkCitySelected" class="fallbackImgWrapper">
       <img src="@/assets/images/raining.svg" alt="" />
     </div>
