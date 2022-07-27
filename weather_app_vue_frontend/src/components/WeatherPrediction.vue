@@ -25,7 +25,6 @@
 <script>
 import moment from 'moment';
 import { convertKelvinToCelius } from "../utils/convertKelvinToCelius";
-import { fetchNextdaysWeatherdata } from "../utils/fetchNextdaysWeatherdata";
 
 export default {
   name: "WeatherPrediction",
@@ -41,7 +40,6 @@ export default {
   methods: {
     moment,
     convertKelvinToCelius,
-    fetchNextdaysWeatherdata,
     async generatePrediction() {
       const res = await fetch(
         `http://localhost:4000/api/weather-forecast?id=${this.cityId}`
