@@ -5,7 +5,7 @@
       @click="generatePrediction()"
       class="weather-prediction-btn"
     >
-      Next 5 days
+      SEE FORECAST
     </button>
     <div
       v-show="showForecast"
@@ -47,7 +47,7 @@ export default {
         `http://localhost:4000/api/weather-forecast?id=${this.cityId}`
       );
       const data = await res.json();
-      this.forecastData = fetchNextdaysWeatherdata(data?.list);
+      this.forecastData = data?.list.slice(0, 5);
       this.$emit("toggle-showForecast", true);
     },
   },
