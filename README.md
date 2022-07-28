@@ -22,16 +22,12 @@ yarn build
 yarn lint
 ```
 
+### Notes
+```
+The frontend is currently built for desktop. However, it can be optimized for mobile view if needed.
+```
 
 # weather_app_vue_frontend
-
-## create a .env file in the root directory and set below properties as Key/Value pairs
-```
-PORT=4000
-```
-```
-OPEN_WEATHER_MAP_API_KEY=[YOUR_OPEN_WEATHER_MAP_API_KEY]
-```
 
 ## Project setup
 ```
@@ -40,4 +36,9 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm start
+```
+
+### run test cases for development
+```
+npm test
 ```

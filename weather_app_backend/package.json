@@ -4,7 +4,8 @@
   "description": "weather app backend",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "jest"
   },
   "author": "Saurabh Kumar",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "express-validator": "^6.14.2"
   },
   "devDependencies": {
+    "jest": "^28.1.3",
     "nodemon": "^2.0.19"
   }
 }
