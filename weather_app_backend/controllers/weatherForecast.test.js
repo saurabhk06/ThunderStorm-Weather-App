@@ -3,7 +3,7 @@ const { getCurrentWeatherByCity, getWeatherForecastByCity } = require('./weather
 // mock request
 const request = {
     query: {
-        
+        id: 6167865
     }
 }
 
