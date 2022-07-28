@@ -15,7 +15,7 @@ app.use(cors());
 app.use('/api', weatherForecastRoutes);
 
 //Port
-const port = process.env.PORT || 5000;
+const port = 4000;
 
 app.listen(port, () => {
     console.log('Server is listening')
