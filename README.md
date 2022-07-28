@@ -27,7 +27,7 @@ yarn lint
 The frontend is currently built for desktop. However, it can be optimized for mobile view if needed.
 ```
 
-# weather_app_vue_frontend
+# weather_app_backend
 
 ## Project setup
 ```
