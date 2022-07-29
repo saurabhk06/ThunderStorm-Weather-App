@@ -1,4 +1,4 @@
-# ThunderStorm-Weather-App
+# ThunderStorm Weather App
 
 # weather_app_vue_frontend
 

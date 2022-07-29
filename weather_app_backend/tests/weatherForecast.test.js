@@ -1,4 +1,4 @@
-const { getCurrentWeatherByCity, getWeatherForecastByCity } = require('./weatherForecast');
+const { getCurrentWeatherByCity, getWeatherForecastByCity } = require('../controllers/weatherForecast');
 
 // mock request
 const request = {
