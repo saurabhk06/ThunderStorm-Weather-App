@@ -1,3 +1,6 @@
+/**
+ * This array contains the list of city details to be used in the app.
+ */
 export const cityList= [
     {
         "id": 6167865,
